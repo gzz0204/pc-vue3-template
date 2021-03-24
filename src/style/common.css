@@ -1,0 +1,43 @@
+.bline {
+  position: relative;
+  padding-left: 13px;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+.bline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 4px;
+  width: 5px;
+  height: 24px;
+  background: #3431c3;
+}
+.mb33 {
+  margin-bottom: 33px;
+}
+.clearfix:after {
+  /*伪元素是行内元素 正常浏览器清除浮动方法*/
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix {
+  *zoom: 1;
+  /*ie6清除浮动的方式 *号只有IE6-IE7执行，其他浏览器不执行*/
+}
+.font-overflow-ellipsis {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  word-break: break-all;
+}
+body {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}

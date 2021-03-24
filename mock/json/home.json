@@ -1,0 +1,21 @@
+{
+  "GET /api/list": {
+    "code": 200,
+    "msg": "请求成功",
+    "data": {
+      "dataList": [
+        { "fileId":"1","fileName":"a1.c","content":"content-test1" },
+        { "fileId":"2","fileName":"a2.c","content":"content-test2" },
+        { "fileId":"3","fileName":"a3.c","content":"content-test2" },
+        { "fileId":"4","fileName":"a4.c","content":"content-test2" },
+        { "fileId":"5","fileName":"a5.c","content":"content-test2" },
+        { "fileId":"6","fileName":"a8.c","content":"content-test2" },
+        { "fileId":"7","fileName":"a9.c","content":"content-test2" }
+      ]
+    }
+  },
+  "GET /api/login": {
+    "success": "true",
+    "message": "登录成功"
+  }
+}

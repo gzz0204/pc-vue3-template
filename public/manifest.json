@@ -1,0 +1,11 @@
+{
+  "name": "web",
+  "short_name": "web",
+  "icons": [
+    {
+      "src": "./resource/static/share-icon.png",
+      "sizes": "16x16 32x32 64x64",
+      "type": "image/x-icon"
+    }
+  ]
+ }

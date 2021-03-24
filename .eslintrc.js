@@ -16,5 +16,7 @@ module.exports = {
   rules: {
     "no-console": process.env.NODE_ENV === "production" ? "warn" : "off",
     "no-debugger": process.env.NODE_ENV === "production" ? "warn" : "off",
+    quotes: [1, 'single'], //引号类型 `` "" ''
+    "@typescript-eslint/explicit-module-boundary-types": 0,
   },
 };
